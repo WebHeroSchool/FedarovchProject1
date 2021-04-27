@@ -10,18 +10,18 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 126px;
+	margin-bottom: 130px;
 }
 
 .logo {
 	position: relative;
-	padding: 40px 0 40px 44px;
+	padding: 40px 0 40px 48px;
 	font: bold 24px/31px 'pt_serifbold', Arial, Helvetica, Sans-serif;
 }
 
 .logo__circle {
 	position: absolute;
-	left: 0;
+	left: 4px;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 28px;
@@ -35,7 +35,7 @@ body {
 }
 
 .logo__circle_color_blue {
-	left: 8px;
+	left: 12px;
 	top: 56%;
 	background-color: #C8DBFB;
 }
@@ -43,6 +43,7 @@ body {
 .menu {
 	display: flex;
 	align-items: center;
+	padding-top: 6px;
 }
 
 .menu__item {
@@ -53,8 +54,8 @@ body {
 	text-decoration: none;
 }
 
-.menu__item::last-child {
-	margin-right: 0;
+.menu__item:last-child {
+	margin-right: 12px;
 }
 
 .menu__item::after {
@@ -93,7 +94,8 @@ body {
 	min-height: 657px;
 	padding-right: 63%;
 	padding-top: 76px;
-	background: top right no-repeat url('img/main-bckg.svg');
+	padding-left: 3px;
+	background: top right 5px no-repeat url('img/main-bckg.svg');
 }
 
 .main__title {
@@ -102,7 +104,7 @@ body {
 }
 
 .main__title-text_highlight {
-	background: #ECF3FF;
+	background: 100% 65% repeat-x url('img/title-bckg.jpg');
 }
 
 .main__text {
@@ -113,7 +115,7 @@ body {
 
 .main__button {
 	display: inline-block;
-	padding: 18px 21px;
+	padding: 18px 36px 18px 21px;
 	font: 500 18px/21px Roboto, Arial, Helvetica, Sans-serif;
 	text-decoration: none;
 	background: #0056EC;
