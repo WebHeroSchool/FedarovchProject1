@@ -345,11 +345,10 @@ body {
 @media (max-width: 960px) {
 
 	.main {
-		padding-right: 55%;
+		padding-right: 54%;
 	}
 
 }
-
 
 
 @media (max-width: 768px) {
@@ -423,7 +422,7 @@ body {
 
 	.main {
 		box-sizing: border-box;
-		padding: 80.3% 0 0;
+		padding: 75% 0 0;
 		background-size: 86%;
 		background-position: top center;
 		text-align: center;
@@ -457,6 +456,14 @@ body {
 
 	.slider-indicators {
 		display: none;
+	}
+
+}
+
+@media (max-width: 664px) {
+
+	.main {
+		padding-top: 80.3%;
 	}
 
 }
