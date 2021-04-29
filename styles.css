@@ -296,6 +296,10 @@ body {
 	}
 
 	.main__title {
+		.main__title {
+	    margin: 0px 0 40px 0;
+		font: bold 66px/87px 'pt_serifbold', Arial, Helvetica, Sans-serif;
+}
 		font-size: 50px;
 		line-height: 65px;
 	}
@@ -322,12 +326,17 @@ body {
 }
 
 @media (max-width: 1024px) {
+
 	.wrapper {
 		width: 91.7%;
 	}
 
 	.menu__item:last-child {
 		margin-right: 4px;
+	}
+
+	.main {
+		padding-right: 50%;
 	}
 
 	.main__text {
@@ -388,14 +397,14 @@ body {
 		position: absolute;
 		width: 100%;
 		min-height: 100vh;
-		padding-top: 2px;
+		padding-top: 19px;
 		z-index: 2;
 		background-color: #FFF;
 	}
 
 	.menu__item {
 		display: block;
-		margin-bottom: 25px;
+		margin-bottom: 26px;
 		margin-right: 0;
 		font: 500 30px/35.16px Roboto, Arial, Helvetica, Sans-serif;
 	}
