@@ -405,7 +405,7 @@ body {
 		position: absolute;
 		width: 100%;
 		min-height: 100vh;
-		padding-top: 19px;
+		padding-top: 2px;
 		z-index: 2;
 		background-color: #FFF;
 	}
@@ -422,6 +422,7 @@ body {
 	} 
 
 	.main {
+		box-sizing: border-box;
 		padding: 80.3% 0 0;
 		background-size: 86%;
 		background-position: top center;
