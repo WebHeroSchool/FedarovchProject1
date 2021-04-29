@@ -296,12 +296,10 @@ body {
 	}
 
 	.main__title {
-		.main__title {
-		    margin: 0px 0 40px 0;
-			font: bold 66px/87px 'pt_serifbold', Arial, Helvetica, Sans-serif;
-			font-size: 50px;
-			line-height: 65px;
-		}
+		margin: 0px 0 40px 0;
+		font: bold 66px/87px 'pt_serifbold', Arial, Helvetica, Sans-serif;
+		font-size: 50px;
+		line-height: 65px;
 	}
 
 	.main__title-text_highlight {
