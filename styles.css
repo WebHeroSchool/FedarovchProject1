@@ -461,7 +461,6 @@ body {
 		}
 	}
 
-	}
 
 	#menu__toggle:checked ~ .menu {
 		display: flex;
