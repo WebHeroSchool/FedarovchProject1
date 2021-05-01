@@ -6,7 +6,6 @@ body {
 	position: relative;
 	width: 80%;
 	margin: auto;
-	//overflow: hidden;
 }
 
 .header {
@@ -144,10 +143,7 @@ body {
 .main {
 	position: relative;
 	min-height: 657px;
-	padding-right: 65%;
-	padding-top: 76px;
-	padding-left: 3px;
-	padding-bottom: 106px;
+	padding: 76px 65% 106px 3px;
 	background: top right 5px no-repeat url('img/main-bckg.svg');
 }
 
@@ -181,47 +177,7 @@ body {
 	opacity: .5;
 }
 
-/* Это был первый способ трех точек:)
-.main__courusel {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-16px);
-	width: 8px;
-	height: 8px;
-	margin: 0 12px 40px;
-	background: #C8DBFB;
-	opacity: .7;
-	border-radius: 50%;
-	transition: opacity .5s;
-}
 
-.main__courusel:hover {
-	opacity: .0;
-}
-
-.main__courusel::after {
-	position: absolute;
-	left: -12px;
-	display: block;
-	content: '';
-	width: 8px;
-	height: 8px;
-	background: #C8DBFB;
-	border-radius: 50%;
-} 
-
-.main__courusel::before {
-	position: absolute;
-	right: -12px;
-	display: block;
-	content: '';
-	width: 8px;
-	height: 8px;
-	background: #C8DBFB;
-	border-radius: 50%;
-} 
-*/
 .slider-indicators {
 	display: flex;
 	position: absolute;
@@ -256,7 +212,6 @@ body {
 	opacity: 1;
 }
 
-
 @media (max-width: 1500px) {
 
 	.main {
@@ -268,8 +223,6 @@ body {
 	}
 
 }
-
-
 
 @media (max-width: 1367px) {
 
@@ -303,15 +256,11 @@ body {
 	}
 
 	.main {
-		min-height: 439px;
-		background: top right 3px no-repeat url('img/main-bckg.svg');
 		background-size: 55%;
-		padding-top: 17px;
 	}
 
 	.main__title {
 		margin: 0px 0 40px 0;
-		font: bold 66px/87px 'pt_serifbold', Arial, Helvetica, Sans-serif;
 		font-size: 50px;
 		line-height: 65px;
 	}
@@ -321,14 +270,16 @@ body {
 	}
 
 	.main__text {
-		font: 400 18px/21px Roboto, Arial, Helvetica, Sans-serif;
+		font-size: 18px;
+		line-height: 21px;
 		margin-bottom: 43px;
 	}
 
 	.main__button {
 		padding: 14px 26px 14px 15px;
 		margin-left: 1px;
-		font: 500 14px/16px Roboto, Arial, Helvetica, Sans-serif;
+		font-size: 14px;
+		line-height: 16px;
 	}
 
 	.slider-indicators {
@@ -368,7 +319,6 @@ body {
 	}
 }
 
-
 @media (max-width: 960px) {
 
 	.header {
@@ -381,7 +331,6 @@ body {
 	}
 
 }
-
 
 @media (max-width: 768px) {
 	.wrapper {
@@ -460,7 +409,6 @@ body {
 			transform: translate(0px, 0px);
 		}
 	}
-
 
 	#menu__toggle:checked ~ .menu {
 		display: flex;
